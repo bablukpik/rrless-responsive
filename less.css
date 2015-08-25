@@ -1,0 +1,226 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+//default  css comes from style.css
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.structure{width:750px;}
+	.slider_images img{width: 714px;}
+	.single_promo{margin-right: 12px; width: 238px;}
+	.quote{border:1px solid black; font-size:20px; padding:7px; background:white; border-radius:5px; margin-top:42px;}
+	.quote_bottom_left {width: 600px;}
+	.quote_bottom_left {
+  margin-right: 10px;
+  width: 521px;
+}
+.quote_bottom_right {
+  margin-right: -61px;
+  width: 279px;
+}
+.single_gallery_img_bottom img {
+  background: none repeat scroll 0 0 white;
+  margin-bottom: -6px;
+  padding: 3px;
+  width: 175px;
+}
+.nav_menu ul li a {
+  color: #787878;
+  display: block;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 9px;
+  text-transform: uppercase;
+}
+	
+}
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {	
+	.structure{width:310px;}
+	.slider_images img{width: 903px;}
+	.single_promo{width:275px; margin-right:38px;}
+	.quote{border:1px solid black; font-size:24px; padding:7px; background:white; border-radius:5px; margin-top:42px;}
+	.quote_bottom_left {width: 600px;}
+	.quote_bottom_left {
+  margin-right: 10px;
+  width: 521px;
+}
+.quote_bottom_right {
+  margin-right: 30px;
+  margin-top: 15px;
+}
+.single_gallery_img_bottom img {
+  background: none repeat scroll 0 0 white;
+  margin-bottom: -6px;
+  padding: 3px;
+  width: 177px;
+}
+.nav_menu {
+  margin-bottom: 35px;
+  margin-top: 4px;
+}
+.nav_menu ul li a {
+  color: #787878;
+  display: block;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px;
+  text-transform: uppercase;
+}
+.slider .slider_images img {
+  background-color: white;
+  margin-bottom: -5px;
+  padding: 5px;
+  width: 275px;
+}
+.quote_right a {
+  background: url("images/requestAquote.png") repeat scroll 0 0 transparent;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+  float: left;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 6px 4px;
+  text-shadow: 1px 1px 1px #334656;
+}
+.quote_left p {
+  padding-left: 4px;
+  padding-top: 16px;
+}
+.quote_right p {
+  float: left;
+  font-size: 20px;
+  margin-right: 0;
+  padding-top: 16px;
+}
+.single_gallery_img {
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 6px;
+}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.structure{width:470px;}
+	.slider_images img{width:433px !important;}
+	.single_promo{width:275px; margin-right:38px;}
+	.quote{border:1px solid black; font-size:14px; padding:7px; background:white; border-radius:5px; margin-top:42px;}
+	.quote_bottom_left {width: 600px;}
+	.quote_bottom_left {
+  margin-right: 10px;
+  width: 244px;
+}
+.quote_bottom_right {
+  margin-right: -61px;
+  width: 277px;
+}
+.single_gallery_img_bottom img {
+  background: none repeat scroll 0 0 white;
+  margin-bottom: -6px;
+  padding: 3px;
+  width: 177px;
+}
+.nav_menu ul li a {
+  color: #787878;
+  display: block;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 9px;
+  text-transform: uppercase;
+}
+.quote_left p{padding-top:16px; padding-left:14px;}
+.quote_right a {
+  background: url("images/requestAquote.png") repeat scroll 0 0 transparent;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+  float: left;
+  padding: 8px 10px;
+  text-shadow: 1px 1px 1px #334656;
+}
+.quote_right p {
+  float: left;
+  margin-right: 15px;
+  padding-top: 10px;
+}
+.quote_left p {
+  font-size: 16px;
+  padding-left: 6px;
+  padding-top: 9px;
+}
+.quote_right a {
+  background: url("images/requestAquote.png") repeat scroll 0 0 transparent;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+  float: left;
+  padding: 8px 10px;
+  text-shadow: 2px 2px 0 #334656;
+}
+.single_gallery_img {
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  margin-right: 22px;
+  padding: 6px;
+  width: 120px;
+}
+.single_gallery_img_bottom img {
+  background: none repeat scroll 0 0 white;
+  margin-bottom: -6px;
+  padding: 3px;
+  width: 90px;
+}
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+}

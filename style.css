@@ -1,0 +1,41 @@
+*{margin:0px; padding:0px;}
+body{background:url("images/background.png") repeat fixed 0 0; font-family:"Times new roman", Arial; font-style: italic; font-size: 14px; line-height: 20px; }
+h1, h2, h3, h4, h5, h6{margin-bottom:15px; font-weight:normal;}
+a{color:green; text-decoration:none;}
+a:hover{text-decoration:none;}
+.structure{width:940px; margin:0 auto; display:block;}
+.fix{overflow:hidden;}
+.float_left{float:left;}
+.float_right{float:right}
+.logo{margin-left:30px; margin-top:53px; margin-bottom:46px;}
+.nav_menu{margin-top:60px;}
+.nav_menu ul{margin:0; padding:0; list-style:none;}
+.nav_menu ul li{float:left; margin-right:10px;}
+.nav_menu ul li:last-child{margin-right:0px;}
+.nav_menu ul li a{display:block; padding:10px 14px; font-family:Arial; font-weight:Bold; text-transform:uppercase; font-size:16px; color:#787878;}
+.nav_menu ul li a:hover{background-color:#787878; border-radius:5px; color:white;}
+.slider{border:1px solid #DFDFDF; border-radius:5px; padding:6px; background-color:white; margin-bottom:56px;}
+.slider .slider_images{background:url(images/slide_border_top.png) repeat; padding:13px;}
+.slider .slider_images img{background-color: white; padding: 5px; width: 903px; margin-bottom:-5px;}
+.single_promo{width:275px; margin-right:38px;}
+.single_promo h2{margin-bottom:25px;}
+.quote{border:1px solid black; font-size:25px; padding:7px; background:white; border-radius:5px; margin-top:42px;}
+.quote_left p{padding-top:16px; padding-left:40px;}
+.quote_right p{float:left; padding-top:16px; margin-right:20px;}
+.quote_right a{background:url(images/requestAquote.png) repeat; border-radius:5px; padding: 14px 21px; display:block; float:left; text-shadow:1px 1px 1px #334656;}
+.quote_bottom{margin-top:38px; margin-bottom:38px;}
+.quote_bottom_left{width:640px;}
+.quote_bottom_left h2{margin-bottom:24px;}
+.quote_bottom_right{width:280px;}
+.quote_bottom_right h2{margin-bottom:24px;}
+.img_gallery{margin-bottom:40px;}
+.single_gallery_img{border:1px solid black; border-radius:5px; padding:6px; margin-right:50px;}
+.single_gallery_img_bottom{background:url(images/slide_border_bottom.png) repeat; padding:10px;}
+.single_gallery_img_bottom  img{padding:3px; margin-bottom:-6px; background:white; width:238px;}
+.last_gallery_img{margin-right:0px;}
+.footer_area{background:url(images/footer_background.png) repeat;}
+.footer_copyright{font-size:12px; margin:24px auto;}
+.footer_social_profiles{margin:14px auto;}
+.social_profiles{border:1px solid black; border-radius:5px; background:white;}
+.social_profiles img{padding-right:17px; margin-top:5px; padding:7px 16px;}
+.last_social_child{padding-right:0px;}
